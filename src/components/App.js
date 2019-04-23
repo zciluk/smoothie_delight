@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import Theme from '../style/Theme';
 import Header from './Header';
 import Hero from './Hero';
-
+import NewsletterForm from './NewsletterForm';
 const GlobalStyle = createGlobalStyle`
     *,
     *::after,
@@ -36,6 +36,7 @@ class App extends Component {
                 <GlobalStyle/>
                 <Header/>
                 <Hero/>
+                <NewsletterForm/>
                 </>
             </Theme>
         );

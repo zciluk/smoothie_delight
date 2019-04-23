@@ -7,6 +7,9 @@ const Theme = ({ children }) => (
    <ThemeProvider
       theme={{
        lightpurple: "#FC009E",   
+       black: "#000000",
+       white: "#EEEEEE",
+       darkpurple: "#26081B",
        ...media
       }}>
       {children}

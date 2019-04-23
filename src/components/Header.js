@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import styled from 'styled-components';
 import smoothie_logo from '../images/smoothie_logo.svg'
 const StyledHeader = styled.div`
@@ -9,7 +9,7 @@ const StyledHeader = styled.div`
     top: 0;
     left: 0;
     background: rgba(255,255,255,0);
-    width: 100vw;
+    width: 100%;
     height: 7rem;
     z-index: 99;
 `;
@@ -25,6 +25,7 @@ const Logo = styled.img.attrs({
     /*border: 1px solid ${props => props.theme.lightpurple};*/
 `;
 const LogoText = styled.div`
+    padding-left: .5rem;
     font-size: 1.5rem;
     font-weight: 800;
 `;
@@ -38,8 +39,6 @@ const Header = props => {
     );
 };
 
-Header.propTypes = {
-    
-};
+
 
 export default Header;
