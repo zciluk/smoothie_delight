@@ -45,7 +45,7 @@ class App extends Component {
           <NewsletterForm />
           <InfoSection
             image={cocktail}
-            title="HEALTHY & DELICIOUS"
+            title="HEALTHY & DELICIOUS "
             desc="Our product have varity of healthy noutritions. 
           Lorem ipsum something itd itp has great effects
           on your body super new product help you get on."

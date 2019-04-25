@@ -54,7 +54,7 @@ const TitleText = styled.div`
   `}
 `;
 const Separator = styled.div`
-  width: 12rem;
+  width: ${props => props.scroll}%;
   height: 0.7rem;
   background-color: ${props => props.theme.lightpurple};
   border: none;
@@ -93,6 +93,7 @@ const SectionImage = styled.div`
   background-blend-mode: normal;
   background-position: center;
 `;
+
 const InfoSection = props => {
   return (
     <SectionContainer image={props.image}>
@@ -101,6 +102,7 @@ const InfoSection = props => {
       )}
       <SectionText opposite={props.opposite}>
         <TitleText>{props.title}</TitleText>
+
         <Separator />
         <DescriptionText>{props.desc}</DescriptionText>
       </SectionText>

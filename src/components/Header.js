@@ -1,6 +1,8 @@
 import React from "react";
-
+import { rgba } from "polished";
 import styled from "styled-components";
+import { Scroll } from "react-fns";
+
 import smoothie_logo from "../images/smoothie_logo.svg";
 const StyledHeader = styled.header`
   position: fixed;
@@ -8,7 +10,7 @@ const StyledHeader = styled.header`
   justify-content: center;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0);
+  background: ${props => rgba(props.theme.white, props.scroll / 600)};
   width: 100%;
   height: 7rem;
   z-index: 99;
@@ -37,13 +39,18 @@ const LogoText = styled.figcaption`
   font-size: 1.2rem;
  `}
 `;
+
 const Header = props => {
   return (
-    <StyledHeader>
-      <HeaderContainer>
-        <Logo /> <LogoText>Smoothie Delight</LogoText>
-      </HeaderContainer>
-    </StyledHeader>
+    <Scroll
+      render={({ y }) => (
+        <StyledHeader scroll={y}>
+          <HeaderContainer>
+            <Logo /> <LogoText>Smoothie Delight </LogoText>
+          </HeaderContainer>
+        </StyledHeader>
+      )}
+    />
   );
 };
 
