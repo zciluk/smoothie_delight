@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1208ca6f.chunk.js",
+    "main.js.map": "/static/js/main.1208ca6f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.6070dfa7.chunk.js": "/static/js/2.6070dfa7.chunk.js",
+    "static/js/2.6070dfa7.chunk.js.map": "/static/js/2.6070dfa7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4d84b34cbe50705e638c660077c604c3.js": "/precache-manifest.4d84b34cbe50705e638c660077c604c3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/cocktail.jpg": "/static/media/cocktail.b7bb6106.jpg",
+    "static/media/fruits.jpg": "/static/media/fruits.21553dc1.jpg",
+    "static/media/hero_big.jpg": "/static/media/hero_big.54cea3b8.jpg",
+    "static/media/hero_small.jpg": "/static/media/hero_small.70e50991.jpg",
+    "static/media/runner.jpg": "/static/media/runner.5a6fd01c.jpg",
+    "static/media/smoothie_logo.svg": "/static/media/smoothie_logo.2cd7e07a.svg",
+    "static/media/weight.jpg": "/static/media/weight.897eb7e3.jpg"
+  }
+}

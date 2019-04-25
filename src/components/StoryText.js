@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import posed from "react-pose";
-import {rgba } from "polished";
+
 const MainText = styled.h1`
   margin-top: 13rem;
   font-size: 6.5rem;

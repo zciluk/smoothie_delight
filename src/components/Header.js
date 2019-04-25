@@ -24,7 +24,8 @@ const HeaderContainer = styled.div`
   align-items: center;
 `;
 const Logo = styled.img.attrs({
-  src: smoothie_logo
+  src: smoothie_logo,
+  alt: "Smoothie Delight logo"
 })`
   height: 4rem;
   ${({ theme }) => theme.phone`

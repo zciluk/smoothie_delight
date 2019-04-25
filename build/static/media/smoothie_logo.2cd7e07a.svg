@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="549px" viewBox="0 0 380 549" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F54DB7" offset="0%"></stop>
+            <stop stop-color="#FC009E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(-26.082788, -52.772266)">
+            <g id="Group" transform="translate(204.194363, 302.500000) rotate(-15.000000) translate(-204.194363, -302.500000) translate(66.694363, 27.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="9" fill="#1B1B1B" transform="translate(93.442110, 133.500000) rotate(-16.000000) translate(-93.442110, -133.500000) " x="82.9421095" y="-2" width="21" height="271" rx="6"></rect>
+                <rect id="Rectangle-Copy-2" fill="url(#linearGradient-1)" x="6" y="251.354848" width="265" height="294" rx="74"></rect>
+                <path d="M71.1250474,93.5895016 L197.811256,88.6639337 C238.649472,87.0761413 273.042548,118.894897 274.63034,159.733113 C274.666806,160.671031 274.685424,161.609558 274.686184,162.548184 L274.999976,476.354824 C275.033047,517.223882 241.928939,550.381609 201.059881,550.414681 C201.039921,550.414697 201.01996,550.414705 201,550.414705 L74,550.354848 C33.1309285,550.354848 7.72391172e-13,517.223919 7.67386155e-13,476.354848 L7.81597009e-13,167.533634 C7.76728975e-13,127.783117 31.404542,95.1338374 71.1250474,93.5895016 Z" id="Rectangle-Copy" stroke="#0F0F0F" stroke-width="28" fill-opacity="0" fill="#FFFFFF"></path>
+                <circle id="Oval-Copy-3" fill="#FFFFFF" cx="182" cy="431.354848" r="12"></circle>
+                <circle id="Oval-Copy-4" fill="#FFFFFF" cx="89" cy="396.354848" r="12"></circle>
+                <ellipse id="Oval-Copy-5" fill="#FFFFFF" cx="191.5" cy="338.354848" rx="21.5" ry="21"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

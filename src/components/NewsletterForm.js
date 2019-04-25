@@ -73,6 +73,9 @@ class NewsletterForm extends Component {
             <FormContainer key="container">
               <Input
                 key="input"
+                label="Your e-mail adresss "
+                aria-label="Your e-mail adresss "
+                aria-required="true"
                 placeholder="Your e-mail adresss "
                 error={this.state.formError}
                 value={this.state.emailField}

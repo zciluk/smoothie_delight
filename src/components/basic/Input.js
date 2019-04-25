@@ -28,6 +28,8 @@ const Input = props => {
       onChange={props.changeHandler}
       error={props.error}
       value={props.value}
+      aria-label={props.placeholder}
+      label={props.placeholder}
       ref={input => input && input.focus()}
     />
   );
