@@ -3,22 +3,22 @@ import styled from "styled-components";
 import Button from "./basic/Button";
 import Input from "./basic/Input";
 import posed, { PoseGroup } from "react-pose";
-
+import { rgba } from "polished";
 const StyledContainer = styled.article`
   width: 100%;
   height: 16rem;
-  background-color: ${props => props.theme.lightpurple};
+  background-color: ${props => rgba(props.theme.lightpurple, 0.1)};
   display: flex;
   align-items: center;
   flex-direction: column;
   font-weight: 200;
   font-size: 2rem;
   text-align: center;
-  color: ${props => props.theme.white};
+  color: ${props => props.theme.black};
   padding: 3rem;
   ${({ theme }) => theme.tablet`
     padding: 4rem;
-    height: 30rem;
+    height: 35rem;
     `}
 `;
 
@@ -88,7 +88,7 @@ class NewsletterForm extends Component {
         </PoseGroup>
         {this.state.formError &&
           !this.state.formSuccess &&
-          "E-mail is not proper!"}
+          "E-mail is not in proper format!"}
       </StyledContainer>
     );
   }

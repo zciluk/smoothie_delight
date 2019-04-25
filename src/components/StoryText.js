@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import posed from "react-pose";
-
-const MainText = styled.header`
-  padding-top: 13rem;
+import {rgba } from "polished";
+const MainText = styled.h1`
+  margin-top: 13rem;
   font-size: 6.5rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -11,12 +11,12 @@ const MainText = styled.header`
   text-shadow: 1px 6px 5px ${props => props.theme.darkpurple};
   ${({ theme }) => theme.tablet`
     font-size: 5.5rem;
-    text-shadow: 1px 4px 4px ${props => props.theme.darkpurple};
+    text-shadow: 1px 4px 5px ${props => props.theme.darkpurple};
     `}
   ${({ theme }) => theme.phone`
     padding-top: 9rem;
     font-size: 4.5rem;
-    text-shadow: 1px 3px 3px ${props => props.theme.darkpurple};
+    text-shadow: 1px 3px 5px ${props => props.theme.darkpurple};
     `}
 `;
 
@@ -31,7 +31,8 @@ const BlinkingCursor = styled(
   opacity: 0;
 `;
 const PurpleText = styled.span`
-  color: ${props => props.theme.lightpurple};
+  color: ${props => props.theme.darkpurple};
+  text-shadow: 1px 3px 5px ${props => props.theme.white};
 `;
 class StoryText extends Component {
   // state is holding variables for animations: isVisible for cursor blinking, first keyword displayed, and set of keywords to display

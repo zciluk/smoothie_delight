@@ -54,7 +54,7 @@ const TitleText = styled.div`
   `}
 `;
 const Separator = styled.div`
-  width: ${props => props.scroll}%;
+  width: 12rem;
   height: 0.7rem;
   background-color: ${props => props.theme.lightpurple};
   border: none;

@@ -10,13 +10,17 @@ const StyledInput = styled.input`
   margin: 1rem;
   font-size: 1.5rem;
   font-family: inherit;
-
-  background-color: rgba(${props => props.theme.lightpurple}, 0.5);
+  background-color: ${props => props.theme.white};
   ${props =>
     props.error
-      ? `border: 5px solid black; color: red;`
-      : `border: 0px solid transparent; color: ${props.theme.darkpurple}`}
+      ? `border: 5px solid ${props.theme.lightpurple}; color: ${
+          props.theme.lightpurple
+        };`
+      : `border: 1px solid ${props.theme.darkpurple}; color: ${
+          props.theme.darkpurple
+        }`}
 `;
+
 const Input = props => {
   return (
     <StyledInput
@@ -24,6 +28,7 @@ const Input = props => {
       onChange={props.changeHandler}
       error={props.error}
       value={props.value}
+      ref={input => input && input.focus()}
     />
   );
 };

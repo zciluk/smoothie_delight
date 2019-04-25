@@ -23,7 +23,7 @@ const StyledButton = styled(
   font-size: 1.3rem;
   border: none;
   cursor: pointer;
-  color: ${props => props.theme.lightpurple};
+  color: ${props => props.theme.white};
   background-color: ${props => props.theme.darkpurple};
   text-transform: uppercase;
   text-decoration: none;
