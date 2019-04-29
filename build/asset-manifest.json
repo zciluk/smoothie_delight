@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/smoothie_delight/build/static/js/main.1208ca6f.chunk.js",
-    "main.js.map": "/smoothie_delight/build/static/js/main.1208ca6f.chunk.js.map",
+    "main.js": "/smoothie_delight/build/static/js/main.d8dd5709.chunk.js",
+    "main.js.map": "/smoothie_delight/build/static/js/main.d8dd5709.chunk.js.map",
     "runtime~main.js": "/smoothie_delight/build/static/js/runtime~main.ed5db459.js",
     "runtime~main.js.map": "/smoothie_delight/build/static/js/runtime~main.ed5db459.js.map",
     "static/js/2.0029564b.chunk.js": "/smoothie_delight/build/static/js/2.0029564b.chunk.js",
     "static/js/2.0029564b.chunk.js.map": "/smoothie_delight/build/static/js/2.0029564b.chunk.js.map",
     "index.html": "/smoothie_delight/build/index.html",
-    "precache-manifest.d03b9b028911de4eb332e18ca99a2980.js": "/smoothie_delight/build/precache-manifest.d03b9b028911de4eb332e18ca99a2980.js",
+    "precache-manifest.fb8cd5de46d31843d9b0103124f5532b.js": "/smoothie_delight/build/precache-manifest.fb8cd5de46d31843d9b0103124f5532b.js",
     "service-worker.js": "/smoothie_delight/build/service-worker.js",
     "static/media/cocktail.jpg": "/smoothie_delight/build/static/media/cocktail.b7bb6106.jpg",
     "static/media/fruits.jpg": "/smoothie_delight/build/static/media/fruits.21553dc1.jpg",

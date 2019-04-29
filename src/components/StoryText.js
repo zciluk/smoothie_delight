@@ -14,7 +14,7 @@ const MainText = styled.h1`
     text-shadow: 1px 4px 5px ${props => props.theme.darkpurple};
     `}
   ${({ theme }) => theme.phone`
-    padding-top: 9rem;
+    margin-top: 8rem;
     font-size: 4.5rem;
     text-shadow: 1px 3px 5px ${props => props.theme.darkpurple};
     `}

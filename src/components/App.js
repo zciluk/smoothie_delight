@@ -22,12 +22,11 @@ const GlobalStyle = createGlobalStyle`
     html {
         font-size: 75%; //1rem = 12px, 12/16
         ${({ theme }) => theme.tablet`
-        font - size: 50 % ; //1 rem = 8px, 8/16 = 50%
-        `}
+    font - size: 50 % ; //1 rem = 8px, 8/16 = 50%
+    `}
     }
 
     body {
-        @import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,800,900');
         box-sizing: border-box;
         padding: 0rem;
         font-family: "Nunito"; 
@@ -47,31 +46,31 @@ class App extends Component {
             image={cocktail}
             title="HEALTHY & DELICIOUS "
             desc="Our product have varity of healthy noutritions. 
-          Lorem ipsum something itd itp has great effects
-          on your body super new product help you get on."
+            Lorem ipsum something itd itp has great effects on your body super new product help you get on.
+            "
           />
           <InfoSection
             opposite
             image={fruits}
             title="EVERY SMOOTHIE IS AN EXPERIENCE"
             desc="Our product have varity of healthy noutritions. 
-          Lorem ipsum something itd itp has great effects
-          on your body super new product help you get on."
+            Lorem ipsum something itd itp has great effects on your body super new product help you get on.
+            "
           />
           <InfoSection
             image={weight}
             title="MAKE IT COUNT!"
             desc="Our product have varity of healthy noutritions. 
-          Lorem ipsum something itd itp has great effects
-          on your body super new product help you get on."
+            Lorem ipsum something itd itp has great effects on your body super new product help you get on.
+            "
           />
           <InfoSection
             opposite
             image={runner}
             title="LOSE WEIGHT AND GAIN MUSCLE"
             desc="Our product have varity of healthy noutritions. 
-          Lorem ipsum something itd itp has great effects
-          on your body super new product help you get on."
+            Lorem ipsum something itd itp has great effects on your body super new product help you get on.
+            "
           />
           <Footer />
         </>

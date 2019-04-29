@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55e19f6540b585007c1b45b6be8c9e7d",
+    "revision": "35e67b34c850351ad003c3a312ef20fb",
     "url": "/smoothie_delight/build/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smoothie_delight/build/static/js/2.0029564b.chunk.js"
   },
   {
-    "revision": "fb9d58d92eeab16bd1a2",
-    "url": "/smoothie_delight/build/static/js/main.1208ca6f.chunk.js"
+    "revision": "8558322d7b233c81ae58",
+    "url": "/smoothie_delight/build/static/js/main.d8dd5709.chunk.js"
   },
   {
     "revision": "46a67371ecd1796e44af",

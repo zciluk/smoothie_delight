@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <style>
+      h1 {
+        font-size: 32px;
+        font-weight: 700;
+      }
+      main {
+        font-style: italic;
+        margin-bottom: 10px;
+        color: black;
+      }
+      footer {
+        color: aqua;
+        background: blue;
+        padding: 10px;
+      }
+      li {
+        text-indent: 10px;
+      }
+      strong {
+        font-weight: bold;
+        color: blue;
+      }
+    </style>
+    <script>
+      function toggleVisibility(id) {
+        var element = document.getElementById(id);
+        if (element.style.visibility === "hidden") {
+          element.style.visibility = "visible";
+        } else {
+          element.style.visibility = "hidden";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>
+      Fix this ugly code!
+    </h1>
+
+    <main>
+      This page is full of lots of violations of the DRY principle (Don't Repeat
+      Yourself) along with a number of other violations of HTML markup best
+      practices.
+      <p>
+        Your goal is to refactor the HTML, CSS and JavaScript on this page so
+        that you have:
+      </p>
+      <pre>
+        1. a clear separation of concerns between HTML, CSS and JavaScript
+        </pre
+      >
+    </main>
+
+    <a href="#" onclick="toggleVisibility('list1')">
+      Click Here to See Suggested Refactoring Path!
+    </a>
+
+    <ol id="list1" style="visibility: hidden;">
+      <li>
+        Refactor
+        <strong>
+          inline styles
+        </strong>
+        (into the head tag or an external stylesheet).
+      </li>
+      <li>
+        Refactor
+        <strong>
+          duplication
+        </strong>
+        that exists in the inline style tags.
+      </li>
+      <li>
+        Refactor
+        <strong>
+          markup
+        </strong>
+        to use appropriate html elements.
+      </li>
+      <li>
+        Refactor
+        <strong>
+          styles
+        </strong>
+        to eliminate the property duplication.
+      </li>
+      <li>
+        Refactor
+        <strong>
+          javascript
+        </strong>
+        to eliminate inline click handler.
+      </li>
+    </ol>
+
+    <footer>
+      While there a number of tools available that can assist in making this
+      refactoring easier I want to challenge you to do this refactor with
+      nothing but your brain and a text editor.
+    </footer>
+  </body>
+</html>
