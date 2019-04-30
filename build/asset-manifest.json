@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/smoothie_delight/build/static/js/main.d8dd5709.chunk.js",
-    "main.js.map": "/smoothie_delight/build/static/js/main.d8dd5709.chunk.js.map",
+    "main.js": "/smoothie_delight/build/static/js/main.786a7c0a.chunk.js",
+    "main.js.map": "/smoothie_delight/build/static/js/main.786a7c0a.chunk.js.map",
     "runtime~main.js": "/smoothie_delight/build/static/js/runtime~main.ed5db459.js",
     "runtime~main.js.map": "/smoothie_delight/build/static/js/runtime~main.ed5db459.js.map",
-    "static/js/2.0029564b.chunk.js": "/smoothie_delight/build/static/js/2.0029564b.chunk.js",
-    "static/js/2.0029564b.chunk.js.map": "/smoothie_delight/build/static/js/2.0029564b.chunk.js.map",
+    "static/js/2.4dc84ddb.chunk.js": "/smoothie_delight/build/static/js/2.4dc84ddb.chunk.js",
+    "static/js/2.4dc84ddb.chunk.js.map": "/smoothie_delight/build/static/js/2.4dc84ddb.chunk.js.map",
     "index.html": "/smoothie_delight/build/index.html",
-    "precache-manifest.fb8cd5de46d31843d9b0103124f5532b.js": "/smoothie_delight/build/precache-manifest.fb8cd5de46d31843d9b0103124f5532b.js",
+    "precache-manifest.bae101544c714432d141d2e61141a926.js": "/smoothie_delight/build/precache-manifest.bae101544c714432d141d2e61141a926.js",
     "service-worker.js": "/smoothie_delight/build/service-worker.js",
     "static/media/cocktail.jpg": "/smoothie_delight/build/static/media/cocktail.b7bb6106.jpg",
     "static/media/fruits.jpg": "/smoothie_delight/build/static/media/fruits.21553dc1.jpg",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/smoothie_delight/build/precache-manifest.fb8cd5de46d31843d9b0103124f5532b.js"
+  "/smoothie_delight/build/precache-manifest.bae101544c714432d141d2e61141a926.js"
 );
 
 self.addEventListener('message', (event) => {

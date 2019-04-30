@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35e67b34c850351ad003c3a312ef20fb",
+    "revision": "75ad172da2371e706dd0054b88de2a49",
     "url": "/smoothie_delight/build/index.html"
   },
   {
-    "revision": "46c4564314350076461c",
-    "url": "/smoothie_delight/build/static/js/2.0029564b.chunk.js"
+    "revision": "839d3c296aa9e52fe359",
+    "url": "/smoothie_delight/build/static/js/2.4dc84ddb.chunk.js"
   },
   {
-    "revision": "8558322d7b233c81ae58",
-    "url": "/smoothie_delight/build/static/js/main.d8dd5709.chunk.js"
+    "revision": "ad6360fc22fac6cdb87f",
+    "url": "/smoothie_delight/build/static/js/main.786a7c0a.chunk.js"
   },
   {
     "revision": "46a67371ecd1796e44af",
