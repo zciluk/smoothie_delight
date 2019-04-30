@@ -1,6 +1,7 @@
+
 Simple Single-Page Application that main objective is to get users informed about health benefits and collect email addresses for mailing list.
-It is bootrstraped with _create-react-app_ and it is using _styled-components_ for styling and _react-pose_ for animations. It also uses _react-snapshot_ for generating a static website.
-The project is fully responsive (from big screens to mobile devices).
+It is bootrstraped with **_create-react-app_** and it is using **_styled-components_** for styling and **_react-pose_** for animations. It also uses _react-snapshot_ for generating a static website.
+The project is fully **responsive** (from big screens to mobile devices).
 
 ## Available Scripts
 
@@ -22,17 +23,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 ## Project
 
 Project was designed in Sketch. First mock can be found here:
-https://zciluk.github.io/smoothie_delight/task/project_smoothiedelight - desktop.png
+https://zciluk.github.io/smoothie_delight/task/project_smoothiedelight-desktop.png
 
 ## Components
 
-The project is using two basic components: Button and Input, which can be easily reused in future modifications.
-InfoSection component just takes titile, description, image props, so it is highly reusable. Moreover, it has "opposite" prop, for changing image/text position.
+The project is using two basic components: **Button** and **Input**, which can be easily reused in future modifications.
+**InfoSection** component just takes titile, description, image props, so it is highly reusable. Moreover, it has "opposite" prop, for changing image/text position.
 Other components are more specific, however modifing them should not be problematic.
 
 ## SEO and accessibility
 
-###Accessibility:
+### Accessibility:
 
 - Project is using semantic HTML
 - it is checked with Chrome Plugin "Wave" for accesiblity
@@ -42,7 +43,7 @@ Other components are more specific, however modifing them should not be problema
 - Plugin A11y for Visual Studio code is automatically pointing wrong written code
 - responsive for different resolutions. Used big fonts
 
-###SEO:
+### SEO:
 
 - Provided title, description, keywords
 - Semantic HTML
