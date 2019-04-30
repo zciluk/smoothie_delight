@@ -21,19 +21,17 @@ const StyledInput = styled.input`
         }`}
 `;
 
-const Input = props => {
-  return (
-    <StyledInput
-      placeholder={props.placeholder}
-      onChange={props.changeHandler}
-      error={props.error}
-      value={props.value}
-      aria-label={props.placeholder}
-      label={props.placeholder}
-      ref={input => input && input.focus()}
-    />
-  );
-};
+const Input = React.forwardRef((props, ref) => (
+  <StyledInput
+    placeholder={props.placeholder}
+    onChange={props.changeHandler}
+    error={props.error}
+    value={props.value}
+    aria-label={props.placeholder}
+    label={props.placeholder}
+    ref={ref}
+  />
+));
 
 Input.propTypes = {
   placeholder: PropTypes.string.isRequired

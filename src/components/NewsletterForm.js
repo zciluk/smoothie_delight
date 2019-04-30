@@ -38,13 +38,16 @@ const SuccessMessage = styled.div`
   font-size: 3rem;
   color: ${props => props.theme.black};
 `;
+const ref = React.createRef();
 class NewsletterForm extends Component {
   state = {
     formError: false,
     formSuccess: false,
     emailField: ""
   };
+
   handleButtonClick = () => {
+    ref.current.focus();
     if (this.validateEmail(this.state.emailField)) {
       this.setState({ formSuccess: true });
     } else {
@@ -60,6 +63,7 @@ class NewsletterForm extends Component {
   handleInputChange = e => {
     this.setState({ emailField: e.target.value, formError: false });
   };
+
   render() {
     return (
       <StyledContainer>
@@ -80,6 +84,7 @@ class NewsletterForm extends Component {
                 error={this.state.formError}
                 value={this.state.emailField}
                 changeHandler={this.handleInputChange}
+                ref={ref}
               />
               <Button
                 key="button"

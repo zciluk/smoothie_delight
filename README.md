@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Single-Page Application that main objective is to get users informed about health benefits and collect email addresses for mailing list.
+It is bootrstraped with _create-react-app_ and it is using _styled-components_ for styling and _react-pose_ for animations. It also uses _react-snapshot_ for generating a static website.
+The project is fully responsive (from big screens to mobile devices).
 
 ## Available Scripts
 
@@ -12,57 +14,36 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project was designed in Sketch. First mock can be found here:
+https://zciluk.github.io/smoothie_delight/task/project_smoothiedelight - desktop.png
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The project is using two basic components: Button and Input, which can be easily reused in future modifications.
+InfoSection component just takes titile, description, image props, so it is highly reusable. Moreover, it has "opposite" prop, for changing image/text position.
+Other components are more specific, however modifing them should not be problematic.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## SEO and accessibility
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+###Accessibility:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Project is using semantic HTML
+- it is checked with Chrome Plugin "Wave" for accesiblity
+- Automatic focused input field (especially important when there is an error in validation)
+- Improved contrast between font and background colors (comparing to project design)
+- Added labels and alt tags whenever possible
+- Plugin A11y for Visual Studio code is automatically pointing wrong written code
+- responsive for different resolutions. Used big fonts
 
-## Learn More
+###SEO:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Provided title, description, keywords
+- Semantic HTML
+- React-snapshot for static website and better crawling (however, it is not needed so much in this project as it contains no links)
